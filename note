@@ -1,0 +1,17 @@
+Personaje:
+PersonajeId: Identificador único del personaje.
+Nombre: Nombre del personaje.
+Nivel: Nivel del personaje.
+Raza: La raza del personaje, referenciada por RazaId.
+Habilidades: Una lista de habilidades que posee el personaje. 
+
+Raza:
+RazaId: Identificador único de la raza.
+Nombre: Nombre de la raza.
+Descripcion: Descripción de la raza.
+
+Habilidad:
+HabilidadId: Identificador único de la habilidad.
+Nombre: Nombre de la habilidad.
+Descripcion: Descripción de la habilidad.
+Poder: Nivel de poder de la habilidad.
